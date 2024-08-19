@@ -1,0 +1,32 @@
+﻿
+Descrierea proiectului:
+
+	Un site unde poti scrie review-uri despre locurile pe care le-ai vizitat
+	sau sa cauti review-uri deja scrise.
+	Toate locurile mentionate in postari vor fi retinute in tabelul Places
+	Toti utilizatorii vor fi retinuti in tabelul Users
+	Toate postarile vor fi retinute in tabelul Posts
+	avea doua roluri: admin sau user;
+	Ca user 
+
+
+	Avem mai multe Places, la care sa mearga unul sau mai multi Users	(Many to many)
+	Rezolvam many to many prin Visits.
+			Un user poate face una sau mai multe Visits			(One to many)
+			Un place poate avea unul sau mai multe Visits		(One to many)
+
+	Un Visit (postare) poate avea unul sau mai multe likes
+	Un Visit (postare) poate avea unul sau mai multe comments
+	Un Visit (postare) va avea un rating pentru Place ul respectiv ->
+			introducem entitatea PlaceRating care tine evidenta rating ului	(One to one)
+
+	Place (#place_id, Name, Description, PlaceRating, Visits[]) -> Doar Admin modifica description
+	Visit (#review_id, place_id, user_id, title, description, rating, picture,
+			likes[], comments[]
+			-> likecount()
+			-> comments()
+			)
+	Like (#like_id, visit_id, user_id, timestamp)
+	Comment (#comm_id, visit_id, user_id, content, timestamp)
+	PlaceRating(#placeRating_id, place_id, Visits[], rating)
+	User (#username, name, age, description, Visits[] )

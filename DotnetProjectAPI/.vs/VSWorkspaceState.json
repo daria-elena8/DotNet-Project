@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Data",
+    "\\Helpers",
+    "\\Models",
+    "\\Repositories",
+    "\\Repositories\\PlaceRepository",
+    "\\Repositories\\UserRepository",
+    "\\Services",
+    "\\Services\\UserService"
+  ],
+  "SelectedNode": "\\Controllers\\UsersController.cs",
+  "PreviewInSolutionExplorer": false
+}

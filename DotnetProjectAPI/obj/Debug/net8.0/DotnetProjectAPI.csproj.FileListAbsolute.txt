@@ -1,0 +1,8 @@
+D:\Unibuc\Anul II\Semestrul I\ASP.Net\DotnetProjectAPI\obj\Debug\net8.0\DotnetProjectAPI.csproj.AssemblyReference.cache
+D:\Unibuc\Anul II\Semestrul I\ASP.Net\DotnetProjectAPI\obj\Debug\net8.0\DotnetProjectAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unibuc\Anul II\Semestrul I\ASP.Net\DotnetProjectAPI\obj\Debug\net8.0\DotnetProjectAPI.AssemblyInfoInputs.cache
+D:\Unibuc\Anul II\Semestrul I\ASP.Net\DotnetProjectAPI\obj\Debug\net8.0\DotnetProjectAPI.AssemblyInfo.cs
+D:\Unibuc\Anul II\Semestrul I\ASP.Net\DotnetProjectAPI\obj\Debug\net8.0\DotnetProjectAPI.csproj.CoreCompileInputs.cache
+D:\Unibuc\Anul II\Semestrul I\ASP.Net\DotnetProjectAPI\obj\Debug\net8.0\DotnetProjectAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Unibuc\Anul II\Semestrul I\ASP.Net\DotnetProjectAPI\obj\Debug\net8.0\DotnetProjectAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Unibuc\Anul II\Semestrul I\ASP.Net\DotnetProjectAPI\obj\Debug\net8.0\DotnetProjectAPI.sourcelink.json
