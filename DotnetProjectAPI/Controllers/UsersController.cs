@@ -1,6 +1,8 @@
 ﻿using DotnetProjectAPI.Services.UserServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using DotnetProjectAPI.Services.UserService;
+
 
 namespace DotnetProjectAPI.Controllers
 {

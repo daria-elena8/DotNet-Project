@@ -30,12 +30,12 @@ namespace DotnetProjectAPI.Repositories.PlaceRepository
             return placesOrdered.ToList();
         }
 
-        public List<Place> OrderByVisitAsc()
+        public List<Place> OrderByVisitsAsc()
         {
             return _table.OrderBy(x => x.visits.Count).ToList();
         }
 
-        public List<Place> OrderByVisitDesc()
+        public List<Place> OrderByVisitsDesc()
         {
             return _table.OrderByDescending(x => x.visits.Count).ToList();
         }
@@ -43,7 +43,7 @@ namespace DotnetProjectAPI.Repositories.PlaceRepository
 
         public List<Place> GetByRating(int rating)
         {
-            return _table.Where(p => p.placeRating.get() == rating).ToList();
+            return _table.Where(p => p.placeRating.rating == rating).ToList();
 
         }
 
@@ -64,18 +64,18 @@ namespace DotnetProjectAPI.Repositories.PlaceRepository
             }
         }
 
-
-        public PlaceRepository GetPlaceWithRating(string placename)
+        /*
+        public PlaceRepository GetPlaceWithRating()
         {
-            return _table.Include(p => p.placeRating).FirstOrDefault(p => p.name == p.placename);
+            return _table.Include(p => p.placeRating).FirstOrDefault(p => p.name);
         }
-
+        */
 
         public async Task UpdatePlaceRatingAsync(Guid placeId)
         {
             var place = await _context.Places
                 .Include(p => p.visits)
-                .FirstOrDefaultAsync(p => p.Id == placeId);
+                .FirstOrDefaultAsync(p => p.id == placeId);
 
             if (place == null)
                 throw new ArgumentException("Place not found");

@@ -1,7 +1,9 @@
 ﻿using DotnetProjectAPI.Data;
 using DotnetProjectAPI.Models;
 using DotnetProjectAPI.Repositories.GenericRepository;
+using DotnetProjectAPI.Repositories.PlaceRepository;
 using Microsoft.EntityFrameworkCore;
+using DotnetProjectAPI.Services.RatingService;
 
 namespace DotnetProjectAPI.Repositories.VisitRepository
 {
@@ -19,43 +21,11 @@ namespace DotnetProjectAPI.Repositories.VisitRepository
             await _table.AddAsync(visit);
             await _context.SaveChangesAsync();
 
-            var placeRepository = new PlaceRepository(_context);
-            await placeRepository.UpdatePlaceRatingAsync(visit.placeId);
+            //var placeRepository = new PlaceRepository(_context);
+            await PlaceRepository.UpdatePlaceRatingAsync(visit.placeId);
         }
 
 
-        private async Task UpdatePlaceRatingAsync(Guid placeId)
-        {
-            var place = await _context.Places
-                .Include(p => p.visits)
-                .FirstOrDefaultAsync(p => p.id == placeId);
-
-            if (place == null)
-                throw new ArgumentException("Place not found");
-
-            var averageRating = place.Visits.Any() ? place.Visits.Average(v => v.rating) : 0;
-
-            var placeRating = await _context.PlaceRatings
-                .FirstOrDefaultAsync(pr => pr.placeId == placeId);
-
-            if (placeRating == null)
-            {
-                placeRating = new PlaceRating
-                {
-                    PlaceId = placeId,
-                    Rating = (int)averageRating
-                };
-
-                await _context.PlaceRatings.AddAsync(placeRating);
-            }
-            else
-            {
-                placeRating.Rating = (int)averageRating;
-                _context.PlaceRatings.Update(placeRating);
-            }
-
-            await _context.SaveChangesAsync();
-        }
 
 
 

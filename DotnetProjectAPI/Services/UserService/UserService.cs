@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using DotnetProjectAPI.Models.DTOs;
 using DotnetProjectAPI.Repositories.UserRepository;
+using DotnetProjectAPI.Services.UserService;
 
 namespace DotnetProjectAPI.Services.UserServices
 {

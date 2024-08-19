@@ -10,7 +10,7 @@ namespace DotnetProjectAPI.Repositories.GenericRepository
         protected readonly projectContext _projectContext;
         protected readonly DbSet<TEntity> _table;
 
-        public GenericRepository(Lab4Context context)
+        public GenericRepository(projectContext context)
         {
             _projectContext = context;
             _table = _projectContext.Set<TEntity>();

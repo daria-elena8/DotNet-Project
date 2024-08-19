@@ -4,6 +4,6 @@ namespace DotnetProjectAPI.Services.RatingService
 {
     public interface IRatingService
     {
-        public async Task UpdatePlaceRatingAsync(Guid placeId);
+        public Task UpdatePlaceRatingAsync(Guid placeId);
     }
 }

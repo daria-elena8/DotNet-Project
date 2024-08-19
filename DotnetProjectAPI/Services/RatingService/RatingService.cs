@@ -1,38 +1,55 @@
 ﻿using AutoMapper;
+using DotnetProjectAPI.Data;
+using DotnetProjectAPI.Models;
 using DotnetProjectAPI.Models.DTOs;
+using DotnetProjectAPI.Repositories.PlaceRepository;
+using DotnetProjectAPI.Repositories.UserRepository;
+using DotnetProjectAPI.Services.UserService;
 
 namespace DotnetProjectAPI.Services.RatingService
 {
     public class RatingService : IRatingService
     {
+        private readonly projectContext _context;
         private readonly IPlaceRepository _placeRepository;
         private readonly IMapper _mapper;
 
-        public UserService(IUserRepository userRepository, IMapper mapper)
+        public RatingService(projectContext context)
         {
-            _userRepository = userRepository;
-            _mapper = mapper;
+            _context = context;
         }
 
-        public async Task<List<UserDto>> GetAllUsers()
+        private async Task UpdatePlaceRatingAsync(Guid placeId)
         {
-            var users = await _userRepository.FindAll();
-            return _mapper.Map<List<UserDto>>(users);
-        }
+            var place = await _context.Places
+                .Include(p => p.visits)
+                .FirstOrDefaultAsync(p => p.id == placeId);
 
-        public async Task<UserDto> GetUserByUsername(string username)
-        {
-            var user = await _userRepository.FindByUsername(username);
+            if (place == null)
+                throw new ArgumentException("Place not found");
 
-            //        var userDto = new UserDto
-            //        {
-            //            Username = user.Username,
-            //            FullName = user.LastName + ' ' + user.FirstName,
-            //            Email = user.Email,
-            //            Id = user.Id
-            //        };
+            var averageRating = place.Visits.Any() ? place.Visits.Average(v => v.rating) : 0;
 
-            return _mapper.Map<UserDto>(user);
+            var placeRating = await _context.PlaceRatings
+                .FirstOrDefaultAsync(pr => pr.placeId == placeId);
+
+            if (placeRating == null)
+            {
+                placeRating = new PlaceRating
+                {
+                    placeId = placeId,
+                    rating = (int)averageRating
+                };
+
+                await _context.PlaceRatings.AddAsync(placeRating);
+            }
+            else
+            {
+                placeRating.rating = (int)averageRating;
+                _context.PlaceRatings.Update(placeRating);
+            }
+
+            await _context.SaveChangesAsync();
         }
     }
 }

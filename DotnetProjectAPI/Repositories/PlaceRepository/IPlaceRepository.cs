@@ -1,4 +1,6 @@
-﻿namespace DotnetProjectAPI.Repositories.PlaceRepository
+﻿using DotnetProjectAPI.Models;
+
+namespace DotnetProjectAPI.Repositories.PlaceRepository
 {
     public interface IPlaceRepository
     {
@@ -8,8 +10,7 @@
         public List<Place> OrderByVisitsDesc();
         public List<Place> GetByRating(int rating);
         public void GroupBy();
-        public PlaceRepository GetPlaceWithRating(string placename);
-        public void UpdatePlaceRating();
+        //public PlaceRepository GetPlaceWithRating(string placename);
 
 
     }
