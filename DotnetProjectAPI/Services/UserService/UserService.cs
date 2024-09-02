@@ -12,11 +12,13 @@ namespace DotnetProjectAPI.Services.UserService
     public class UserService : GenericService<UserDto, User>, IUserService
     {
         private readonly IUserRepository _userRepository;
+        private readonly IMapper _mapper;
 
         public UserService(IUserRepository userRepository, IMapper mapper)
             :base(userRepository, mapper)
         {
             _userRepository = userRepository;
+            _mapper = mapper;
         }
 
         public async Task<UserDto> GetUserByUsername(string username)
@@ -45,5 +47,19 @@ namespace DotnetProjectAPI.Services.UserService
             return _mapper.Map<UserDto>(user);
         }
 
+        public async Task<User> Authenticate(string username, string password)
+        {
+            var user = await _userRepository.FindByUsername(username);
+
+            if (user == null || user.password != password)
+            {
+                Console.WriteLine("User not found / invalid password");
+                return null;
+            }
+
+            Console.WriteLine("User found");
+            return user;
+        }
     }
+
 }

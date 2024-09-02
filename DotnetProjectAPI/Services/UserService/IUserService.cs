@@ -7,6 +7,6 @@ namespace DotnetProjectAPI.Services.UserService
     public interface IUserService : IGenericService<UserDto, User>
     { 
         Task<UserDto> GetUserByUsername(string username);
-       
+        Task<User> Authenticate(string username, string password);
     }
 }

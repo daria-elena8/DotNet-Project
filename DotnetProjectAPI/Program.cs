@@ -12,6 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SecretKey"]));
+
 
 // Configurează autentificarea JWT
 builder.Services.AddAuthentication(options =>
@@ -21,19 +23,17 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(options =>
 {
-    options.Authority = "https://localhost:7000"; // URL-ul autorității de autentificare
     options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuer = true,
         ValidateAudience = true,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        ValidIssuer = "https://localhost:7000", // Trebuie să fie aceeași cu Authority
-        ValidAudience = "api1", // Publicul valid pentru tokenul JWT
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YOUR_SECRET_KEY")) // Cheia secretă
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = securityKey
     };
 });
-
 
 // Adaugă politica de autorizare
 builder.Services.AddAuthorization(options =>
