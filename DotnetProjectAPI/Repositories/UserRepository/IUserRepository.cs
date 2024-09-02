@@ -7,8 +7,8 @@ namespace DotnetProjectAPI.Repositories.UserRepository
     {
 
         Task<User> FindByUsername(string username);
-        Task<List<User>> FindAll();
-        Task<List<User>> FindAllActive();
+        Task<User> FindById(Guid id);
+
 
 
     }

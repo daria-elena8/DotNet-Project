@@ -1,6 +1,6 @@
 ﻿namespace DotnetProjectAPI.Models.DTOs
 {
-    public class LikesDto
+    public class LikeDto
     {
         public Guid Id { get; set; }
         public Guid VisitId { get; set; }

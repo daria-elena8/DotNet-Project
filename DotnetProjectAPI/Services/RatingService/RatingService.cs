@@ -1,55 +1,65 @@
-﻿using AutoMapper;
-using DotnetProjectAPI.Data;
+﻿using DotnetProjectAPI.Repositories.PlaceRepo;
+using DotnetProjectAPI.Repositories.VisitRepository;
+using DotnetProjectAPI.Repositories.PlaceRatingRepository;
+using DotnetProjectAPI.Repositories.GenericRepository;
 using DotnetProjectAPI.Models;
+using System.Linq;
 using DotnetProjectAPI.Models.DTOs;
-using DotnetProjectAPI.Repositories.PlaceRepository;
-using DotnetProjectAPI.Repositories.UserRepository;
-using DotnetProjectAPI.Services.UserService;
+using DotnetProjectAPI.Services.GenericService;
+using AutoMapper;
+
 
 namespace DotnetProjectAPI.Services.RatingService
 {
-    public class RatingService : IRatingService
+    public class RatingService : GenericService<PlaceRatingDto, PlaceRating>, IRatingService
     {
-        private readonly projectContext _context;
-        private readonly IPlaceRepository _placeRepository;
-        private readonly IMapper _mapper;
+        private readonly IPlaceRepo _placeRepository;
+        private readonly IVisitRepository _visitRepository;
+        private readonly IPlaceRatingRepository _placeRatingRepository;
 
-        public RatingService(projectContext context)
+        public RatingService(
+            IGenericRepository<PlaceRating> repository,
+            IMapper mapper,
+            IPlaceRepo placeRepository,
+            IVisitRepository visitRepository,
+            IPlaceRatingRepository placeRatingRepository)
+            : base(repository, mapper)
         {
-            _context = context;
+            _placeRepository = placeRepository;
+            _visitRepository = visitRepository;
+            _placeRatingRepository = placeRatingRepository;
         }
 
-        private async Task UpdatePlaceRatingAsync(Guid placeId)
+        public async Task UpdatePlaceRatingAsync(Guid placeId)
         {
-            var place = await _context.Places
-                .Include(p => p.visits)
-                .FirstOrDefaultAsync(p => p.id == placeId);
+            var visits = await _visitRepository.GetVisitsByPlaceIdAsync(placeId);
 
-            if (place == null)
-                throw new ArgumentException("Place not found");
+            if (!visits.Any()) 
+            {
+                throw new ArgumentException("No visits found for this place");
+            }
 
-            var averageRating = place.Visits.Any() ? place.Visits.Average(v => v.rating) : 0;
+            var averageRating = visits.Average(v => v.rating); 
 
-            var placeRating = await _context.PlaceRatings
-                .FirstOrDefaultAsync(pr => pr.placeId == placeId);
-
+            var placeRating = await _placeRatingRepository.GetPlaceRatingByPlaceIdAsync(placeId);
             if (placeRating == null)
             {
                 placeRating = new PlaceRating
                 {
                     placeId = placeId,
-                    rating = (int)averageRating
+                    rating = (double)averageRating 
                 };
 
-                await _context.PlaceRatings.AddAsync(placeRating);
+                await _placeRatingRepository.CreateAsync(placeRating);
             }
             else
             {
-                placeRating.rating = (int)averageRating;
-                _context.PlaceRatings.Update(placeRating);
+                placeRating.rating = (double)averageRating;
+                _placeRatingRepository.Update(placeRating);
             }
 
-            await _context.SaveChangesAsync();
+            await _placeRatingRepository.SaveAsync();
         }
+
     }
 }

@@ -1,7 +1,7 @@
-﻿using DotnetProjectAPI.Services.UserServices;
+﻿using DotnetProjectAPI.Services.UserService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using DotnetProjectAPI.Services.UserService;
+using DotnetProjectAPI.Models.DTOs;
 
 
 namespace DotnetProjectAPI.Controllers
@@ -18,13 +18,69 @@ namespace DotnetProjectAPI.Controllers
         }
 
 
-        [HttpGet]
-        public async Task<IActionResult> GetUserByUsername([FromBody] string username)
+        [HttpGet("{username}")]
+        public async Task<IActionResult> GetUserByUsername(string username)
         {
-            return Ok(await _userService.GetUserByUsername(username));
+            var user = await _userService.GetUserByUsername(username);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            return Ok(user);
+        }
+
+        [HttpGet("{id:guid}")]
+        public async Task<IActionResult> GetUserById(Guid id)
+        {
+            var user = await _userService.GetByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            return Ok(user);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateUser([FromForm] UserDto userDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            
+
+            var user = await _userService.CreateAsync(userDto);
+            return CreatedAtAction(nameof(GetUserByUsername), new { username = user.Username }, user);
+        }
+
+        [HttpPut("{id:guid}")]
+        public async Task<IActionResult> UpdateUser(Guid id, [FromForm] UserDto userDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            await _userService.UpdateAsync(id, userDto);
+            
+            return NoContent();
+        }
+
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> DeleteUser(Guid id)
+        {
+            await _userService.DeleteAsync(id);
+
+            return NoContent();
         }
 
 
+        [HttpGet]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var users = await _userService.GetAllAsync();
+            return Ok(users);
+        }
 
     }
 }

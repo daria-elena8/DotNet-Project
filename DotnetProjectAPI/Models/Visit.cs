@@ -2,12 +2,12 @@
 
 namespace DotnetProjectAPI.Models
 {
-    public class Visit : BaseEntity
+    public class Visit
     {
-        public Guid Id { get; set; }
-
-        public Guid placeId { get; set; }
+        // composed key
         public Guid userId { get; set; }
+        public Guid placeId { get; set; }
+
         public string title { get; set; }
         public string? description { get; set; }
         public int rating { get; set; } = 0;
@@ -30,7 +30,9 @@ namespace DotnetProjectAPI.Models
         public List<Comment> comments { get; set; }
 
 
-
+        public DateTime? dateCreated { get; set; }
+        public DateTime? dateModified { get; set; }
+        public bool isDeleted { get; set; } = false;
 
     }
 }

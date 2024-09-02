@@ -30,3 +30,16 @@ Descrierea proiectului:
 	Comment (#comm_id, visit_id, user_id, content, timestamp)
 	PlaceRating(#placeRating_id, place_id, Visits[], rating)
 	User (#username, name, age, description, Visits[] )
+
+
+	Punctaj:
+
+	- 3 controllere (fiecare metoda crud, REST cu date din baza de date)				- 1 pct
+
+	- cel putin o relatie intre tabele din fiecare fel								
+	       folosirea metodelor din linq: group by, where; folosire Join si include		- 1 pct
+
+	- autentificare + roluri; Autorizare pe endpointuri in functie de roluri
+			cel putin doua roluri ( admin  + user )										- 1 pct
+
+	- sa se foloseasca repository patternn + service									- 1 pct

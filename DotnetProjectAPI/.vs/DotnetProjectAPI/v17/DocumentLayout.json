@@ -7,116 +7,76 @@
       "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\services\\ratingservice\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:services\\ratingservice\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\services\\ratingservice\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:services\\ratingservice\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\repositories\\visitrepository\\visitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:repositories\\visitrepository\\visitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\repositories\\visitrepository\\ivisitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:repositories\\visitrepository\\ivisitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\repositories\\placerepository\\iplacerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:repositories\\placerepository\\iplacerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\repositories\\placerepository\\placerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:repositories\\placerepository\\placerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\repositories\\userrepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:repositories\\userrepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\repositories\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:repositories\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\place.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\place.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\visit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\visit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\data\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:data\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\dtos\\placeratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\dtos\\placeratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\repositories\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:repositories\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\repositories\\genericrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:repositories\\genericrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\description.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:description.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\dtos\\likedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\dtos\\likedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\dtos\\visitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\dtos\\visitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\dotnetprojectapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:dotnetprojectapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\helpers\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:helpers\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\data\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:data\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\services\\visitservice\\visitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:services\\visitservice\\visitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\controllers\\placescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:controllers\\placescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\dtos\\placedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\dtos\\placedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\description.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:description.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\services\\commentservice\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:services\\commentservice\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\dotnetprojectapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:dotnetprojectapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|d:\\unibuc\\anul ii\\semestrul i\\asp.net\\dotnet-project\\dotnetprojectapi\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F01271F-460D-4443-8A5F-0A307FEA1E33}|DotnetProjectAPI.csproj|solutionrelative:models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -125,59 +85,150 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "DockedHeight": 370,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\CommentDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CommentDto.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\CommentDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\CommentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:01:51.371Z",
+              "WhenOpened": "2024-09-01T23:45:34.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
+              "DocumentIndex": 3,
+              "Title": "LikesController.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Controllers\\LikesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LikesController.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Controllers\\LikesController.cs",
+              "RelativeToolTip": "Controllers\\LikesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T10:38:49.441Z",
+              "WhenOpened": "2024-09-01T23:41:19.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Visit.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Visit.cs",
-              "RelativeDocumentMoniker": "Models\\Visit.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Visit.cs",
-              "RelativeToolTip": "Models\\Visit.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAIBWwAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "LikeDto.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\LikeDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\LikeDto.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\LikeDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\LikeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T09:51:31.165Z",
+              "WhenOpened": "2024-09-01T23:41:14.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlacesController.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Controllers\\PlacesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlacesController.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Controllers\\PlacesController.cs",
+              "RelativeToolTip": "Controllers\\PlacesController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T23:14:51.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Helpers\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Helpers\\MappingProfile.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Helpers\\MappingProfile.cs",
+              "RelativeToolTip": "Helpers\\MappingProfile.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwCMAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T23:11:42.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlaceDto.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\PlaceDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\PlaceDto.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\PlaceDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\PlaceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T23:11:31.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VisitService.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\VisitService\\VisitService.cs",
+              "RelativeDocumentMoniker": "Services\\VisitService\\VisitService.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\VisitService\\VisitService.cs",
+              "RelativeToolTip": "Services\\VisitService\\VisitService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T18:59:22.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\CommentService\\CommentService.cs",
+              "RelativeDocumentMoniker": "Services\\CommentService\\CommentService.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\CommentService\\CommentService.cs",
+              "RelativeToolTip": "Services\\CommentService\\CommentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T18:58:52.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\UserService\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService\\UserService.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\UserService\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService\\UserService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T18:10:15.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-01T17:09:32.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "projectContext.cs",
               "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Data\\projectContext.cs",
               "RelativeDocumentMoniker": "Data\\projectContext.cs",
               "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Data\\projectContext.cs",
               "RelativeToolTip": "Data\\projectContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAcwGMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T08:13:52.182Z",
+              "WhenOpened": "2024-09-01T15:18:21.85Z",
               "EditorCaption": ""
             },
             {
@@ -188,350 +239,111 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T07:52:59.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IPlaceRepository.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\PlaceRepository\\IPlaceRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\PlaceRepository\\IPlaceRepository.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\PlaceRepository\\IPlaceRepository.cs",
-              "RelativeToolTip": "Repositories\\PlaceRepository\\IPlaceRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "DocumentIndex": 6,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Helpers\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Helpers\\ServiceExtensions.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Helpers\\ServiceExtensions.cs",
+              "RelativeToolTip": "Helpers\\ServiceExtensions.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwBwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T08:30:46.385Z",
+              "WhenOpened": "2024-09-01T18:12:03.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RatingService.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\RatingService\\RatingService.cs",
-              "RelativeDocumentMoniker": "Services\\RatingService\\RatingService.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\RatingService\\RatingService.cs",
-              "RelativeToolTip": "Services\\RatingService\\RatingService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T07:56:22.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VisitRepository.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\VisitRepository\\VisitRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\VisitRepository\\VisitRepository.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\VisitRepository\\VisitRepository.cs",
-              "RelativeToolTip": "Repositories\\VisitRepository\\VisitRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T10:59:12.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRatingService.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\RatingService\\IRatingService.cs",
-              "RelativeDocumentMoniker": "Services\\RatingService\\IRatingService.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\RatingService\\IRatingService.cs",
-              "RelativeToolTip": "Services\\RatingService\\IRatingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T07:49:57.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PlaceRatingDto.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\PlaceRatingDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\PlaceRatingDto.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\PlaceRatingDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\PlaceRatingDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T15:12:38.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\UserRepository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository\\IUserRepository.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\UserRepository\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T08:05:32.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\GenericRepository\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\GenericRepository\\IGenericRepository.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\GenericRepository\\IGenericRepository.cs",
-              "RelativeToolTip": "Repositories\\GenericRepository\\IGenericRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAABQwBUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T07:59:46.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "Description.txt",
               "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Description.txt",
               "RelativeDocumentMoniker": "Description.txt",
               "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Description.txt",
               "RelativeToolTip": "Description.txt",
-              "ViewState": "AQIAAAcAAAAAAAAAAABBwBgAAAAWAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACwAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-08-13T08:27:05.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LikeDto.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\LikeDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\LikeDto.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\LikeDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\LikeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T14:48:37.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "VisitDto.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\VisitDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\VisitDto.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\VisitDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\VisitDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:49:58.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DatabaseController.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Controllers\\DatabaseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DatabaseController.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Controllers\\DatabaseController.cs",
-              "RelativeToolTip": "Controllers\\DatabaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T08:10:41.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 17,
               "Title": "DotnetProjectAPI.csproj",
               "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\DotnetProjectAPI.csproj",
               "RelativeDocumentMoniker": "DotnetProjectAPI.csproj",
               "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\DotnetProjectAPI.csproj",
               "RelativeToolTip": "DotnetProjectAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-13T08:08:17.334Z",
+              "WhenOpened": "2024-08-29T10:32:26.459Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-13T07:57:54.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         },
         {
-          "DockedHeight": 200,
+          "DockedHeight": 30,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IVisitRepository.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\VisitRepository\\IVisitRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\VisitRepository\\IVisitRepository.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\VisitRepository\\IVisitRepository.cs",
-              "RelativeToolTip": "Repositories\\VisitRepository\\IVisitRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "DatabaseController.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Controllers\\DatabaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DatabaseController.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Controllers\\DatabaseController.cs",
+              "RelativeToolTip": "Controllers\\DatabaseController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:53:15.187Z",
+              "WhenOpened": "2024-09-01T23:42:45.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\UserService\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService\\UserService.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\UserService\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T10:58:14.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Like.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Like.cs",
-              "RelativeDocumentMoniker": "Models\\Like.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Like.cs",
-              "RelativeToolTip": "Models\\Like.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T10:36:28.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 8,
               "Title": "Comment.cs",
               "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "Models\\Comment.cs",
               "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Comment.cs",
               "RelativeToolTip": "Models\\Comment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T10:33:06.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Place.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Place.cs",
-              "RelativeDocumentMoniker": "Models\\Place.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Place.cs",
-              "RelativeToolTip": "Models\\Place.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAkAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T17:53:36.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlaceRepository.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\PlaceRepository\\PlaceRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\PlaceRepository\\PlaceRepository.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\PlaceRepository\\PlaceRepository.cs",
-              "RelativeToolTip": "Repositories\\PlaceRepository\\PlaceRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T08:30:40.991Z",
+              "WhenOpened": "2024-09-01T23:42:23.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\UserRepository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository\\UserRepository.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\UserRepository\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository\\UserRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAIAAAAAAAAA",
+              "Title": "Like.cs",
+              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Like.cs",
+              "RelativeDocumentMoniker": "Models\\Like.cs",
+              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Like.cs",
+              "RelativeToolTip": "Models\\Like.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T08:05:27.422Z",
+              "WhenOpened": "2024-09-01T15:25:37.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 18,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\UserService\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService\\IUserService.cs",
               "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Services\\UserService\\IUserService.cs",
               "RelativeToolTip": "Services\\UserService\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T07:50:01.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\GenericRepository\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\GenericRepository\\GenericRepository.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Repositories\\GenericRepository\\GenericRepository.cs",
-              "RelativeToolTip": "Repositories\\GenericRepository\\GenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAQwAwAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T08:00:05.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Enums\\Role.cs",
-              "RelativeDocumentMoniker": "Models\\Enums\\Role.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\Enums\\Role.cs",
-              "RelativeToolTip": "Models\\Enums\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T15:15:58.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\UserDto.cs",
-              "ToolTip": "D:\\Unibuc\\Anul II\\Semestrul I\\ASP.Net\\DotNet-Project\\DotnetProjectAPI\\Models\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\UserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:41:51.292Z",
+              "WhenOpened": "2024-08-31T16:26:04.662Z",
               "EditorCaption": ""
             }
           ]
         }
       ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "99300f74-80bb-41a7-8521-04e0282a9b2a",
-        "Display": 0,
-        "X": 538,
-        "Y": 177,
-        "Width": 1088,
-        "Height": 664,
-        "WindowState": 0
-      },
-      "DocumentGroups": []
     }
   ]
 }

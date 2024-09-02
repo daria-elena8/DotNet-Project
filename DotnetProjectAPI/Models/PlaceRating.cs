@@ -6,7 +6,7 @@ namespace DotnetProjectAPI.Models
     {
         public Guid placeId { get; set; }
         public Guid userId { get; set; }
-        public int rating { get; set; } = 0;
+        public double rating { get; set; } = 0;
 
 
         // Place - PlaceRating      One-to-One relation

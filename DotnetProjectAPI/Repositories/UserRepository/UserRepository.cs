@@ -9,19 +9,13 @@ namespace DotnetProjectAPI.Repositories.UserRepository
     {
         public UserRepository(projectContext context) : base(context) { }
 
-        public async Task<List<User>> FindAll()
-        {
-            return await _table.ToListAsync();        
-        }
-
-        public async Task<List<User>> FindAllActive()
-        {
-            return await _table.GetActiveUsers().ToListAsync();
-        }
-
         public async Task<User> FindByUsername(string username)
         {
-            return (await _table.FirstOrDefaultAsync(u => u.Username.Equals(username)))!;
+            return (await _table.FirstOrDefaultAsync(u => u.username.Equals(username)))!;
+        }
+        public async Task<User> FindById(Guid id)
+        {
+            return (await _table.FirstOrDefaultAsync(i => i.id.Equals(id)))!;
         }
     }
 

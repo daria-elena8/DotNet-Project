@@ -1,10 +1,15 @@
 ﻿using DotnetProjectAPI.Models;
+using DotnetProjectAPI.Repositories.GenericRepository;
+using System.Linq.Expressions;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+
 
 namespace DotnetProjectAPI.Repositories.VisitRepository
 {
-    public interface IVisitRepository
+    public interface IVisitRepository : IGenericRepository<Visit>
     {
-        public Task AddVisitAsync(Visit visit);
+        Task<List<Visit>> GetVisitsByPlaceIdAsync(Guid placeId);
 
     }
 }

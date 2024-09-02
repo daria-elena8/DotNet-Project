@@ -1,98 +1,58 @@
-﻿using DotnetProjectAPI.Data;
-using DotnetProjectAPI.Models.Base;
+﻿using System.Linq.Expressions;
+using DotnetProjectAPI.Data;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
 
 namespace DotnetProjectAPI.Repositories.GenericRepository
 {
-    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : BaseEntity
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        protected readonly projectContext _projectContext;
-        protected readonly DbSet<TEntity> _table;
+        protected readonly projectContext _context;
+        protected readonly DbSet<T> _table;
 
         public GenericRepository(projectContext context)
         {
-            _projectContext = context;
-            _table = _projectContext.Set<TEntity>();
+            _context = context;
+            _table = _context.Set<T>();
         }
 
-        // Get All
-        public async Task<List<TEntity>> GetAll()
+        public async Task<List<T>> GetAllAsync()
         {
-            return await _table.AsNoTracking().ToListAsync();
+            return await _table.ToListAsync();
         }
 
-        // Create
-        public void Create(TEntity entity)
-        {
-            _table.Add(entity);
-        }
-
-        public async Task CreateAsync(TEntity entity)
-        {
-            await _table.AddAsync(entity);
-        }
-
-        public void CreateRange(IEnumerable<TEntity> entities)
-        {
-            _table.AddRange(entities);
-        }
-
-        public async Task CreateRangeAsync(IEnumerable<TEntity> entities)
-        {
-            await _table.AddRangeAsync(entities);
-        }
-
-
-        // Update
-        public void Update(TEntity entity)
-        {
-            _table.Update(entity);
-        }
-        public void UpdateRange(IEnumerable<TEntity> entities)
-        {
-            _table.UpdateRange(entities);
-        }
-
-        // Delete
-        public void Delete(TEntity entity)
-        {
-            _table.Remove(entity);
-        }
-
-        public void DeleteRange(IEnumerable<TEntity> entities)
-        {
-            _table.RemoveRange(entities);
-        }
-
-        // Find
-
-        public TEntity FindById(Guid id)
-        {
-            return _table.Find(id);
-        }
-
-        public async Task<TEntity> FindByIdAsync(Guid id)
+        public async Task<T> GetByIdAsync(Guid id)
         {
             return await _table.FindAsync(id);
         }
 
-
-        // Save
-
-        public bool Save()
+        public async Task CreateAsync(T entity)
         {
-            return _projectContext.SaveChanges() > 0;
+            await _table.AddAsync(entity);
         }
 
-        public async Task<bool> SaveAsync()
+        public void Update(T entity)
         {
-            return await _projectContext.SaveChangesAsync() > 0;
+            _table.Update(entity);
         }
 
+        public void Delete(T entity)
+        {
+            _table.Remove(entity);
+        }
 
+        public async Task<bool> ExistsAsync(Expression<Func<T, bool>> obj)
+        {
+            return await _table.AnyAsync(obj);
+        }
 
+        public async Task SaveAsync()
+        {
+            await _context.SaveChangesAsync();
+        }
 
-
+        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression)
+        {
+            return _table.Where(expression).AsNoTracking();
+        }
     }
 }

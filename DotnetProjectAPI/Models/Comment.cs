@@ -4,8 +4,10 @@ namespace DotnetProjectAPI.Models
 {
     public class Comment : BaseEntity
     {
-        public Guid visitId { get; set; }
+        // composed key
         public Guid userId { get; set; }
+        public Guid placeId { get; set; }
+
         public string content { get; set; } = default!;
         public DateTime timestamp { get; set; }
 

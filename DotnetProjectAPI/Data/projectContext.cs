@@ -2,6 +2,8 @@
 using DotnetProjectAPI.Models;
 using DotnetProjectAPI.Services;
 using DotnetProjectAPI.Repositories;
+using System.Threading;
+using System;
 
 
 
@@ -37,30 +39,8 @@ namespace DotnetProjectAPI.Data
             modelBuilder.Entity<Place>()
                 .HasOne(p => p.placeRating)
                 .WithOne(pr => pr.place)
-                .HasForeignKey<PlaceRating>(pr => pr.placeId);
-
-
-            // One to Many
-
-            modelBuilder.Entity<Comment>()
-                .HasOne(c => c.visit)
-                .WithMany(v => v.comments)
-                .HasForeignKey(c => c.visitId);
-
-            modelBuilder.Entity<Like>()
-                .HasOne(l => l.visit)
-                .WithMany(v => v.likes)
-                .HasForeignKey(l => l.visitId);
-
-            modelBuilder.Entity<Comment>()
-                .HasOne(c => c.user)
-                .WithMany(u => u.comments)
-                .HasForeignKey(c => c.userId);
-
-            modelBuilder.Entity<Like>()
-                .HasOne(l => l.user)
-                .WithMany(u => u.likes)
-                .HasForeignKey(l => l.userId);
+                .HasForeignKey<PlaceRating>(pr => pr.placeId)
+                .OnDelete(DeleteBehavior.NoAction);
 
 
             // Many to Many
@@ -70,13 +50,52 @@ namespace DotnetProjectAPI.Data
             modelBuilder.Entity<Visit>()
                 .HasOne(v => v.user)
                 .WithMany(u => u.visits)
-                .HasForeignKey(v => v.userId);
+                .HasForeignKey(v => v.userId)
+                .OnDelete(DeleteBehavior.NoAction); 
 
             modelBuilder.Entity<Visit>()
                 .HasOne(v => v.place)
                 .WithMany(p => p.visits)
-                .HasForeignKey(v => v.placeId);
+                .HasForeignKey(v => v.placeId)
+                .OnDelete(DeleteBehavior.NoAction); 
 
+            // One to Many 
+            modelBuilder.Entity<Like>()
+                .HasKey(l => new { l.userId, l.placeId });
+
+            modelBuilder.Entity<Like>()
+                .HasOne(l => l.visit)
+                .WithMany(v => v.likes)
+                .HasForeignKey(l => new { l.userId, l.placeId });
+
+            modelBuilder.Entity<Like>()
+                .HasOne(l => l.user)
+                .WithMany(u => u.likes)
+                .HasForeignKey(l => l.userId)
+                .OnDelete(DeleteBehavior.NoAction);
+           
+
+            // One to Many 
+            modelBuilder.Entity<Comment>()
+                .HasKey(c => new { c.userId, c.placeId });
+
+            modelBuilder.Entity<Comment>()
+                .HasOne(c => c.visit)
+                .WithMany(v => v.comments)
+                .HasForeignKey(c => new { c.userId, c.placeId })
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Comment>()
+                .HasOne(c => c.user)
+                .WithMany(u => u.comments)
+                .HasForeignKey(c => c.userId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<Place>()
+                .HasOne(p => p.placeRating)
+                .WithOne(pr => pr.place)
+                .HasForeignKey<PlaceRating>(pr => pr.placeId)
+                .OnDelete(DeleteBehavior.Cascade);
 
         }
 
