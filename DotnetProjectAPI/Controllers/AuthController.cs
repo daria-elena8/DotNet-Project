@@ -23,14 +23,14 @@ namespace DotnetProjectAPI.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequest model)
+        public async Task<IActionResult> Login([FromForm] LoginRequest model)
         {
             var user = await _userService.Authenticate(model.Username, model.Password);
 
             if (user == null)
                 return Unauthorized(new { message = "Invalid username / password." });
 
-            // Generează JWT token
+            // Generate JWT token
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.UTF8.GetBytes("MY_SECRET_KEY_celputin16caractere"); 
 
@@ -42,6 +42,8 @@ namespace DotnetProjectAPI.Controllers
                 new Claim(ClaimTypes.Role, user.role.ToString())
                 }),
                 Expires = DateTime.UtcNow.AddHours(1),
+                Issuer = "https://localhost:7000",  
+                Audience = "https://localhost:7000",
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 

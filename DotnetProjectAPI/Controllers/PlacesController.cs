@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using DotnetProjectAPI.Services.PlaceService;
+using DotnetProjectAPI.Models;
 
 namespace DotnetProjectAPI.Controllers
 {
@@ -38,19 +39,35 @@ namespace DotnetProjectAPI.Controllers
             return Ok(place);
         }
 
+
+
+        /// <summary>
+        /// //  NU INREGISTREAZA PLACE URILE, NU MERGE AUTH
+        /// </summary>
+        /// <param name="placeCreateDto"></param>
+        /// <returns></returns>
+
+
         // Create a new place (Admin only)
         [HttpPost]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> CreatePlace([FromBody] PlaceDto placeDto)
+        public async Task<IActionResult> CreatePlace([FromBody] PlaceCreateDto placeCreateDto)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var place = await _placeService.CreateAsync(placeDto);
-            return CreatedAtAction(nameof(GetPlaceById), new { id = place.Id }, place);
+            var placeDto = new PlaceDto
+            {
+                Name = placeCreateDto.Name,
+                Description = placeCreateDto.Description,
+            };
+
+            var place = await _placeService.CreateNewAsync(placeDto);
+            return CreatedAtAction(nameof(GetPlaceById), new { id = place.id }, place);
         }
+
 
         // Update an existing place (Admin only)
         [HttpPut("{id:guid}")]

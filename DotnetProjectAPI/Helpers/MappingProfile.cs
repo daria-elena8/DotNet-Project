@@ -36,6 +36,10 @@ namespace DotnetProjectAPI.Helpers
                 .ForMember(dest => dest.visit, opt => opt.Ignore()) 
                 .ForMember(dest => dest.user, opt => opt.Ignore());
 
+            CreateMap<PlaceCreateDto, Place>();
+            CreateMap<PlaceDto, Place>();
+            CreateMap<Place, PlaceDto>();
+
         }
     }
 }
